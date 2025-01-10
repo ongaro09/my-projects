@@ -13,10 +13,10 @@ directory contains a self-contained project or script.
 
 ## Motivation 
 
-I'm foreign to web dev, but as a consumer, I find web-based apps as often flow and sometimes I get frustrated when
+I'm foreign to web dev, but as a consumer, I find web-based apps as often slow and sometimes I get frustrated when
 I want to get my work done within a set time-frame. Average consumers in Kenya like myself don't own 'super-fast' 
 computers. I wonder why web developers don't target this critical mass. 
 
 ## How to Use
 
-If you're reading this, you probably know you way around it. 
+If you're reading this, you probably know you way around it.
