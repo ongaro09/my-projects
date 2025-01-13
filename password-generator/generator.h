@@ -3,10 +3,10 @@
 
 typedef struct {
   int len;
-  int upperCase;
-  int lowerCase;
-  int digits;
-  int symbols;
+  int includeUppercase;
+  int includeLowercase;
+  int includeDigits;
+  int includeSymbols;
   int easyMode;
 } Config;
 
