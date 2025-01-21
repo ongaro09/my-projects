@@ -8,7 +8,7 @@ directory contains a self-contained project or script.
 1. [ocr-script](./ocr-script) - A Node.js script that performs OCR on an image using Tesseract.js.
 2. [gyte](./gyte) - A Bash script to stage specific files, prompt for a commit message, and push to GitHub—all in one command.
 3. [password-generator](./password-generator) - A password generator written in C. Perfect for anyone wanting to avoid reusing passwords and store them in a database under full control.
-4.
+4. [whatsapp-bot](./whatsapp-bot) -  A whatsapp bot to send me recurrent reminders about my pending tasks (both work and personal).
 5.
 
 ## Motivation 
@@ -19,6 +19,5 @@ computers. I wonder why web developers don't target this critical mass.
 
 Other scripts like gyte are meant to keep things simple, but overall the goal is to enhance productivity.
 
-## How to Use
-
-If you're reading this, you probably know you way around it.
+## In Development
+- A whatsapp bot (locally done...testing).
