@@ -9,7 +9,7 @@ directory contains a self-contained project or script.
 2. [gyte](./gyte) - A Bash script to stage specific files, prompt for a commit message, and push to GitHub—all in one command.
 3. [password-generator](./password-generator) - A password generator written in C. Perfect for anyone wanting to avoid reusing passwords and store them in a database under full control.
 4. [whatsapp-bot](./whatsapp-bot) -  A whatsapp bot to send me recurrent reminders about my pending tasks (both work and personal).
-5.
+5. [web-crawler](./web-crawler) - A basic web crawler written in Common Lisp.
 
 ## Motivation 
 
