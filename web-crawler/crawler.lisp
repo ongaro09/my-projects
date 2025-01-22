@@ -63,4 +63,4 @@
         do (crawl-page (dequeue-url))))
 
 (defun start-crawler ()
-  (crawl "https://caveoffame.com/blog-philosophy/"))
+  (crawl "<url>"))
