@@ -1383,6 +1383,7 @@ img {
     display: flex;
     justify-content: flex-start;
     padding-left: 15%;
+    padding-left: 0;
 }
 
 @media screen and (max-width: 479px) {
@@ -1397,7 +1398,7 @@ img {
 	align-items: center;
 	margin-top: 5%;
 	padding-top: 0%;
-	padding-right: 5%;
+	padding-right: 1.5%;
 	display: flex;
     }
 }
@@ -1452,14 +1453,14 @@ img {
 }
 
 
-.foot__nav-item {
+.footer__nav-item {
     padding-top: 0;
     padding-bottom: 0;
     list-style-type: none;
 }
 
 @media screen and (max-width: 479px) {
-    .foot__nav-item {
+    .footer__nav-item {
         flex-flow: column;
         flex: 0 auto;
         justify-content: center;
