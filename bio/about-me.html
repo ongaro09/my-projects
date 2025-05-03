@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About-me</title>
+    <link href="styles.css" rel="stylesheet">
+  </head>
+
+  <body class="body">
+
+    <header class="header">
+      <div class="header__container">
+        <div class="header__logo-wrapper">
+          <a href="/" class="header__logo-link" aria-label="Home">
+            <img class="header__logo-image" alt="My personal logo" src="./assets/my-logo.png">
+          </a>
+        </div>
+
+        <nav class="header__nav" role="navigation" aria-label="Main menu ">
+          <ul class="header__list">
+            <li class="header__item">
+              <a href="#" class="header__link">
+                <div class="header__link-text">Blog</div>
+              </a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">
+                <div class="header__link-text">Speaking</div>
+              </a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">
+                <div class="header__link-text">Deck</div>
+              </a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">
+                <div class="header__link-text">Resources</div>
+              </a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">
+                <div class="header__link-text">About</div>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+      </div>
+    </header>
+
+    <main class="main-section">
+
+
+      <div class="bio">
+	<div class="bio__header">
+	  <div class="bio__header-content">
+	    <h1 class="bio__header-title">I'm Tracy Muswii</h1>
+	    <!--<p class="bio__header-subtitle">You can call me Tee</p>-->
+	  </div>
+	</div>
+	<div class="bio__content w-row">
+	  <div class="bio__featured-project w-col w-col-6">
+	    <div class="bio__project-container">
+              <div class="bio__project-border">
+		<h2 class="bio__project-title">I'm a virtual assistance without borders (literally)</h2>
+		<p class="bio__project-description">
+		  With 5 years experience in the digital space, I've perfected the art of making your your day less strainful - think less juggling emails and more focus
+		  on the task at hand. When I'm not automating your day, I'm scouting out fresh productivity tricks so you look even sharper. Juggling time zones, slamming
+		  Slack channels, and rescuing stray docs are all in a day's work. Think of me as your digital buddy - reliable, intuitive, and considerably resourceful.
+		  <br>
+		  <br>
+
+		  Being location-independent, I easily adapt to workflow and time-zone, in such a way that your projects stay on track whenever suitable. Need a hand from
+		  NYC, feedback from San Diego, or a quick follow up in Nairobi? No problem - I'm always just a click away, ready to dive in.
+		  <br>
+		  <br>
+
+		  And because great assistance means more than just checking a task off a list, I ensure every interaction counts. Whether it's a cheerful email that
+		  brightens a client's day or a wittifully-timed GIF that diffuses a stressful situation, I bring efficiency to every task. Let me handle all these
+		  behind the scenes.
+		  <br>
+		  <br>
+		 I also share practical tips for accessible design on my blog.
+		</p>
+              </div>
+              <div class="bio__project-link-container">
+		<a href="/blog" class="bio__project-link bio__project-link--primary bio__project-link--centered">
+		  Read my blog <span aria-hidden="true" class="bio__project-link-icon">→</span>
+		</a>
+              </div>
+	    </div>
+	  </div>
+	  <div class="bio__photo-section w-col w-col-6">
+	    <div class="bio__photo-container">
+              <img
+		sizes="(max-width: 479px) 96vw, (max-width: 767px) 97vw, (max-width: 1279px) 48vw, (max-width: 1919px) 49vw, 882px"
+		src="./assets/about-me.png "
+		alt=""
+		loading="lazy"
+		class="bio__photo"
+		>
+              <p class="bio__photo-legend">Photo by Mark Ongaro</p>
+	    </div>
+	  </div>
+	</div>
+      </div>
+      
+
+      <section class="main-section__clients">
+	<div class="main-section__clients-heading main-section__clients-heading--centered">
+	  <h2>Successful projects, happy clients</h2>
+	</div>
+
+	<ul class="main-section__client-list">
+	  <li class="main-section__client-list-item">
+            <img alt="Antalis logo" src="./assets/clients-logo/antalis-logo.png" class="main-section__client-image">
+	  </li>
+	  <li class="main-section__client-list-item">
+            <img alt="Inflow logo" src="./assets/clients-logo/inflow-logo.png" class="main-section__client-image">
+	  </li>
+	  <li class="main-section__client-list-item">
+            <img alt="L'Oreal logo" src="./assets/clients-logo/LOreal-Logo.png" class="main-section__client-image">
+	  </li>
+	  <li class="main-section__client-list-item">
+            <img alt="Maif logo" src="./assets/clients-logo/maif-logo.svg" class="main-section__client-image">
+	  </li>
+	  <li class="main-section__client-list-item">
+            <img alt="Ratp logo" src="./assets/clients-logo/ratp-logo.png" class="main-section__client-image">
+	  </li>
+	</ul>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__contact green">
+	<div class="div-block__shall-we">
+	  <h2 class="footer__contact-heading">Shall we?</h2>
+	</div>
+	<div class="contact">
+	  <p class="contact__text">
+            Based in Nairobi, Kenya, I work with English speaking teams to provide reliable virtual support. Want to work together?
+	  </p>
+	  <a href="/" class="email-button left w-button">
+            Email me
+	  </a>
+	  <ul class="contact__social-list social" role="list">
+            <li class="contact__social-item">
+              <a href="/" class="header__link social">Newsletter</a>
+            </li>
+            <li class="contact__social-item">
+              <a href="/" class="header__link social">LinkedIn</a>
+            </li>
+            <li class="contact__social-item">
+              <a href="/" class="header__link social">Medium</a>
+            </li>
+	  </ul>
+	</div>
+      </div>
+
+      <div class="footer__nav"></div>
+      <ul class="footer__nav-list white" role="list">
+	<li class="footer__nav-item">
+          <a href="" class="social-icon w-inline-block">
+            <div class="header__link white internal">Blog</div>
+          </a>
+	</li>
+	<li class="footer__nav-item">
+          <a href="" class="social-icon w-inline-block">
+            <div class="header__link white internal">Speaking</div>
+          </a>
+	</li>
+	<li class="footer__nav-item">
+          <a href="" class="social-icon w-inline-block">
+            <div class="header__link white internal">About me</div>
+          </a>
+	</li>
+	<li class="footer__nav-item">
+          <a href="" class="social-icon w-inline-block">
+            <div class="header__link white internal">Resources</div>
+          </a>
+	</li>
+	<li class="footer__nav-item">
+          <a href="" class="social-icon w-inline-block">
+            <div class="header__link white internal">Privacy policy</div>
+          </a>
+	</li>
+      </ul>
+    </footer>
+    
+    
+  </body>
+
+</html>
